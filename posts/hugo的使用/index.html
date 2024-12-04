@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
     <title>Hugo的使用 - Goran&#39;s Blog</title><meta name="author" content="Goran">
-<meta name="description" content="1.配置自己的初始网站，上传第一个博客。1.1先决条件在开始本教程之前，你必须：
+<meta name="description" content="本文将介绍如何完整的布置一个个人博客，包括本地部署，添加内容，线上部署，自动更新，图床和个性化的设置。
 "><meta name="keywords" content='前端'>
   <meta itemprop="name" content="hugo的使用">
-  <meta itemprop="description" content="1.配置自己的初始网站，上传第一个博客。1.1先决条件在开始本教程之前，你必须：">
+  <meta itemprop="description" content="本文将介绍如何完整的布置一个个人博客，包括本地部署，添加内容，线上部署，自动更新，图床和个性化的设置。">
   <meta itemprop="datePublished" content="2024-12-03T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-12-03T00:00:00+00:00">
   <meta itemprop="wordCount" content="862">
   <meta itemprop="keywords" content="前端"><meta property="og:url" content="http://localhost:1313/posts/hugo%E7%9A%84%E4%BD%BF%E7%94%A8/">
   <meta property="og:site_name" content="Goran&#39;s Blog">
   <meta property="og:title" content="hugo的使用">
-  <meta property="og:description" content="1.配置自己的初始网站，上传第一个博客。1.1先决条件在开始本教程之前，你必须：">
+  <meta property="og:description" content="本文将介绍如何完整的布置一个个人博客，包括本地部署，添加内容，线上部署，自动更新，图床和个性化的设置。">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -26,7 +26,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="hugo的使用">
-  <meta name="twitter:description" content="1.配置自己的初始网站，上传第一个博客。1.1先决条件在开始本教程之前，你必须：">
+  <meta name="twitter:description" content="本文将介绍如何完整的布置一个个人博客，包括本地部署，添加内容，线上部署，自动更新，图床和个性化的设置。">
 <meta name="application-name" content="FixIt">
 <meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -165,7 +165,8 @@
     <li><a href="#35一个好用的md编写文件图床">3.5：一个好用的md编写文件+图床</a></li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content"><h2 id="1配置自己的初始网站上传第一个博客" class="heading-element"><span>1.配置自己的初始网站，上传第一个博客。</span>
+      </div><div class="content" id="content"><p>本文将介绍如何完整的布置一个个人博客，包括本地部署，添加内容，线上部署，自动更新，图床和个性化的设置。</p>
+<h2 id="1配置自己的初始网站上传第一个博客" class="heading-element"><span>1.配置自己的初始网站，上传第一个博客。</span>
   <a href="#1%e9%85%8d%e7%bd%ae%e8%87%aa%e5%b7%b1%e7%9a%84%e5%88%9d%e5%a7%8b%e7%bd%91%e7%ab%99%e4%b8%8a%e4%bc%a0%e7%ac%ac%e4%b8%80%e4%b8%aa%e5%8d%9a%e5%ae%a2" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
@@ -175,7 +176,7 @@
   </a>
 </h2><p>在开始本教程之前，你必须：</p>
 <ol>
-<li><a href="https://gohugo.io/getting-started/installing/"target="_blank" rel="external nofollow noopener noreferrer">安装 Hugo</a>（扩展版，v0.134.1 或更高版本）</li>
+<li><a href="https://gohugo.io/getting-started/installing/"target="_blank" rel="external nofollow noopener noreferrer">安装 Hugo</a>（扩展版，v0.134.</li>
 <li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"target="_blank" rel="external nofollow noopener noreferrer">安装 Git</a></li>
 </ol>
 <h2 id="12创建网站" class="heading-element"><span>1.2创建网站</span>
@@ -803,8 +804,7 @@ Markdown中，图片只是一个本地/联网的地址
 <p>blowfish主题：</p>
 <p><img loading="lazy" src="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174506842.png" alt="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174506842.png" srcset="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174506842.png?size=small, https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174506842.png?size=medium 1.5x, https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174506842.png?size=large 2x" data-title="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174506842.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
 <p>stack主题：</p>
-<p><img loading="lazy" src="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png" alt="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png" srcset="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png?size=small, https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png?size=medium 1.5x, https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png?size=large 2x" data-title="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
-</div><div class="post-footer" id="post-footer">
+<p><img loading="lazy" src="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png" alt="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png" srcset="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png?size=small, https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png?size=medium 1.5x, https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png?size=large 2x" data-title="https://gorantan-blog.oss-cn-shanghai.aliyuncs.com/pic/20241203174434031.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
