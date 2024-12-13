@@ -167,5 +167,5 @@ image.save(&#34;result.jpg&#34;)
 ---
 
 > 作者: [Goran](https://github.com/GoranTan)  
-> URL: http://localhost:1313/posts/paddleocr/  
+> URL: https://gorantan.github.io/posts/paddleocr/  
 

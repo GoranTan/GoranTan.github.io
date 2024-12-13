@@ -75,5 +75,5 @@ $global-font-family: &#39;LXGW WenKai&#39;, yinbi1, yinbi2, sans-serif!important
 ---
 
 > 作者: [Goran](https://github.com/GoranTan)  
-> URL: http://localhost:1313/posts/%E8%A7%A3%E5%86%B3hugo%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E9%97%AE%E9%A2%98/  
+> URL: https://gorantan.github.io/posts/%E8%A7%A3%E5%86%B3hugo%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E9%97%AE%E9%A2%98/  
 

@@ -75,5 +75,5 @@ devsidecar是一个github的开源项目，可以实现：dns优选，请求拦�
 ---
 
 > 作者: [Goran](https://github.com/GoranTan)  
-> URL: http://localhost:1313/posts/github%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/  
+> URL: https://gorantan.github.io/posts/github%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/  
 

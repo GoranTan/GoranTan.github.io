@@ -34,5 +34,5 @@ git config --global --unset https.proxy
 ---
 
 > 作者: [Goran](https://github.com/GoranTan)  
-> URL: http://localhost:1313/posts/%E5%AE%8C%E7%BE%8E%E8%A7%A3%E5%86%B3git-failed-to-connect-to-127.0.0.1-port-1080-connection-refused%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/  
+> URL: https://gorantan.github.io/posts/%E5%AE%8C%E7%BE%8E%E8%A7%A3%E5%86%B3git-failed-to-connect-to-127.0.0.1-port-1080-connection-refused%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/  
 

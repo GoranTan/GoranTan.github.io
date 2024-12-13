@@ -476,5 +476,5 @@ stack主题：
 ---
 
 > 作者: [Goran](https://github.com/GoranTan)  
-> URL: http://localhost:1313/posts/hugo%E7%9A%84%E4%BD%BF%E7%94%A8/  
+> URL: https://gorantan.github.io/posts/hugo%E7%9A%84%E4%BD%BF%E7%94%A8/  
 

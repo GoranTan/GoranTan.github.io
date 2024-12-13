@@ -104,8 +104,11 @@ git config - - remove - section submodule.themes/hugo - theme - stack
 **成功解决**
 
 
+
+
+
 ---
 
 > 作者: [Goran](https://github.com/GoranTan)  
-> URL: http://localhost:1313/posts/github-page%E6%8A%A5%E9%94%99/  
+> URL: https://gorantan.github.io/posts/github-page%E6%8A%A5%E9%94%99/  
 

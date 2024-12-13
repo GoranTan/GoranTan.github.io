@@ -20,5 +20,5 @@
 ---
 
 > 作者: [Goran](https://github.com/GoranTan)  
-> URL: http://localhost:1313/posts/%E8%A7%A3%E5%86%B3%E8%BF%87%E9%97%AE%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5/  
+> URL: https://gorantan.github.io/posts/%E8%A7%A3%E5%86%B3%E8%BF%87%E9%97%AE%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5/  
 
